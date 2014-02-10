@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/huawei/c8813q/proprietary/lib/libmmirunning.so:system/lib/libmmirunning.so \
     vendor/huawei/c8813q/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/huawei/c8813q/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/huawei/c8813q/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/huawei/c8813q/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/huawei/c8813q/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
