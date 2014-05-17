@@ -172,8 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libchromatix_vx6953_preview.so:system/lib/libchromatix_vx6953_preview.so \
     vendor/huawei/c8813q/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/huawei/c8813q/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/huawei/c8813q/proprietary/lib/libdivxdrmdecrypt.so:obj/lib/libdivxdrmdecrypt.so \
-    vendor/huawei/c8813q/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/huawei/c8813q/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/huawei/c8813q/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/huawei/c8813q/proprietary/lib/libgemini.so:system/lib/libgemini.so \
