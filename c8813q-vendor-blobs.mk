@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8813q/proprietary/bin/cnd:system/bin/cnd \
     vendor/huawei/c8813q/proprietary/bin/gps_check:system/bin/gps_check \
-    vendor/huawei/c8813q/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/huawei/c8813q/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/c8813q/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8813q/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -48,14 +47,21 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/huawei/c8813q/proprietary/bin/fmconfig:system/bin/fmconfig
 
-#egl
+#adreno
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8813q/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/huawei/c8813q/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/huawei/c8813q/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/huawei/c8813q/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/huawei/c8813q/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/huawei/c8813q/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/huawei/c8813q/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 
 #hw
 PRODUCT_COPY_FILES += \
@@ -78,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/huawei/c8813q/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/huawei/c8813q/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/huawei/c8813q/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/huawei/c8813q/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/huawei/c8813q/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/huawei/c8813q/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
@@ -178,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
     vendor/huawei/c8813q/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
     vendor/huawei/c8813q/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/huawei/c8813q/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/huawei/c8813q/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8813q/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
     vendor/huawei/c8813q/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -237,10 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/huawei/c8813q/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/c8813q/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/huawei/c8813q/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/huawei/c8813q/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/huawei/c8813q/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/huawei/c8813q/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/c8813q/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
     vendor/huawei/c8813q/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/c8813q/proprietary/lib/libxml.so:system/lib/libxml.so \
