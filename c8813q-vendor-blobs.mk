@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
 #hw
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8813q/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/c8813q/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 #bluez-plugin
@@ -200,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813q/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/huawei/c8813q/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/huawei/c8813q/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/huawei/c8813q/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/huawei/c8813q/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/huawei/c8813q/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/huawei/c8813q/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
